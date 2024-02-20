@@ -8,7 +8,7 @@ h1{
     font-family: 'Pacifico';
 }
 body{
-    background-image: url(/assets/imagen-fondo.jpg);
+    background-image: url(/assets/imagen-fondo.jpg);  /*imagen de fondo en el body*/
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -16,4 +16,31 @@ body{
 }
 .container{
     background: radial-gradient(rgba(238,174,202,1),rgba(233,195,148,1));
+    width: 400px;
+    border-radius: 10px;
+    box-shadow:  0 0 0 2px rgb(31, 30, 30);
+}
+.agregar{
+    background-color: rgb(249, 245, 245);
+    box-shadow:0 0 0.2px rgb(27, 28, 27) ;
+}
+.limpiar{
+    background-color: rgb(217, 208, 208);
+    color:red;
+    box-shadow:0 0 0 0.5px red;
+    float:right;
+    
+}
+ .agregar:hover{
+    background-color: rgb(11, 199, 20);
+ }
+.limpiar:hover{
+    background-color: red;
+    color:white;
+}
+ul{
+
+}
+li{
+    
 }
