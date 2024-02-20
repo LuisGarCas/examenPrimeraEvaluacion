@@ -1,0 +1,19 @@
+
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(/assets/fonts/Pacifico-Regular.ttf);
+}
+h1{
+    font-family: 'Pacifico';
+}
+body{
+    background-image: url(/assets/imagen-fondo.jpg);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    background: radial-gradient(rgba(238,174,202,1),rgba(233,195,148,1));
+}
