@@ -11,10 +11,15 @@
 <body>
     <div class="container">
         <h1>Lista de tareas</h1>
-        <button onclick="addTask">Agregar una Tarea</button>
+        <button class="agregar"  onclick="addTask">Agregar una Tarea</button>
         <ul id="tasklist"></ul>
-        <button onclick="cleanAll">Limpiar todo</button>
+        <button class="limpiar"  onclick="cleanAll">Limpiar todo</button>
     </div>
-    
+    <script type="module">import {addTask, cleanAll} from "./scripts/scriptFunciones.js";
+        window.addTask=addTask;
+        window.cleanAll=cleanAll</script>
+   <script type="module" src="./scripts/scriptClassTarea.js"></script>
+    <script type="module "src="./scripts/scriptFunciones.js"></script>
+    <script type ="module"src="./scripts/scriptMain.js"></script>
 </body>
 </html>

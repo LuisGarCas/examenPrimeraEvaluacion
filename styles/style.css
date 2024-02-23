@@ -13,7 +13,9 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center fixed;
     
 }
 .container{
@@ -42,8 +44,12 @@ body{
     color:white;
 }
 ul{
-
+    list-style: normal;
+    padding:20px;
 }
 li{
-
+   
+    background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
 }
