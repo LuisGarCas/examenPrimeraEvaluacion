@@ -24,7 +24,7 @@ export function cleanAll() {
 
     const itemstareas=document.querySelectorAll("li")
     for(let i=0;i<itemstareas.length;i++){
-        lista.removeChild(itemsTareas([i]))
+        lista.removeChild(itemstareas[i])
     };
 
 }
